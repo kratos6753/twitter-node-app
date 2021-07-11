@@ -1,0 +1,26 @@
+{
+  "name": "twitter-node-app",
+  "version": "1.0.0",
+  "description": "twitter node app which makes few calls to twitter & displays results",
+  "main": "index.js",
+  "scripts": {
+    "start": "BEARER_TOKEN=$(grep BEARER_TOKEN .env | cut -d '=' -f2) node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kratos6753/twitter-node-app.git"
+  },
+  "author": "Kodati Kanaka Chiranjeevi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kratos6753/twitter-node-app/issues"
+  },
+  "homepage": "https://github.com/kratos6753/twitter-node-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "got": "^9.6.0"
+  }
+}
